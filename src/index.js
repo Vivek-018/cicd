@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('🎉 Hello from the CI/CD enabled backend!');
+  res.send('👋 Hello from the CI/CD enabled backend!');
 });
 
 app.listen(port, () => {
